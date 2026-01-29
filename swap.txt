@@ -1,0 +1,40 @@
+Código v1
+
+        alert('Bem vindo ao game!');
+
+   
+        let valor01 = prompt('Digite o primeiro valor');
+        alert('O valor01 digitado é '+ valor01);
+
+        let valor02 = prompt('Digite o segundo valor');
+        alert('O valor02 digitado é '+ valor02);
+
+        alert('Vou somar os valores');
+
+        let soma = valor01 + valor02;
+        
+        alert('O resultado é ' + soma);
+
+O código está retornando o número como uma string 
+então quando vai somar ele apenas junta os 2 números ele não soma
+
+Código v2
+
+        alert('Bem vindo ao game!');
+
+    
+        let valor01 = prompt('Digite o primeiro valor');
+        alert('O valor01 digitado é '+ valor01);
+
+        let valor02 = prompt('Digite o segundo valor');
+        alert('O valor02 digitado é '+ valor02);
+
+        alert('Vou somar os valores');
+
+        let soma = Number(valor01) + Number(valor02);
+ 
+        alert('O resultado é ' + soma);
+
+Agora colocando a função Number na variável da soma 
+tranforma os números em números e não em texto
+fazendo com que eles possam ser somaveis

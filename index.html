@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Hellow</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: crimson;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        p{
+            color: white;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>JS Hellow</p>
+
+    <script>
+        //Mensagem para o usuário
+        alert('Bem vindo ao game!');
+
+        //Criar uma variável para armazenar o primeiro valor que o usuário digitar
+        let valor01 = prompt('Digite o primeiro valor');
+        //Mensagem para mostrar o primeiro valor que o usuário digitou
+        alert('O valor01 digitado é '+ valor01);
+
+        //Criar outra variável para armazenar o segundo valor
+        let valor02 = prompt('Digite o segundo valor');
+        //Mensagem para mostrar o segundo valor que o usuário digitou
+        alert('O valor02 digitado é '+ valor02);
+
+        alert('Vou somar os valores');
+
+        //Criar uma variável para armazenar a soma dos dois números digitados pelo usuário
+        let soma = Number(valor01) + Number(valor02);
+        
+        //Mensagem para mostrar o resultado da soma
+        alert('O resultado é ' + soma);
+</script>
+</body>
+</html>
