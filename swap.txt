@@ -22,19 +22,43 @@ Código v2
 
         alert('Bem vindo ao game!');
 
-    
-        let valor01 = prompt('Digite o primeiro valor');
-        alert('O valor01 digitado é '+ valor01);
+        
+        let valor01 = prompt('Digite o primeiro valor:');
+        
+        let valor02 = prompt('Digite o segundo valor:');
 
-        let valor02 = prompt('Digite o segundo valor');
-        alert('O valor02 digitado é '+ valor02);
-
-        alert('Vou somar os valores');
-
+        alert('Vou somar os valores!');
+        
         let soma = Number(valor01) + Number(valor02);
- 
-        alert('O resultado é ' + soma);
+        
+        alert('O resultado da soma é ' + soma+'!');
 
 Agora colocando a função Number na variável da soma 
 tranforma os números em números e não em texto
 fazendo com que eles possam ser somaveis
+
+código v3
+
+        //Mensagem para o usuário
+        alert('Bem vindo ao game!');
+
+        //Criar uma variável para armazenar o primeiro valor que o usuário digitar
+        let valor01 = Number(prompt('Digite o primeiro valor:'));
+
+        //Criar outra variável para armazenar o segundo valor
+        let valor02 = Number(prompt('Digite o segundo valor:'));
+
+        alert('Vou somar os valores!');
+
+        //Criar uma variável para armazenar a soma dos dois números digitados pelo usuário
+        let soma = valor01 + valor02;
+        
+        //Mensagem para mostrar o resultado da soma
+        alert('O resultado da soma é ' + soma+'!');
+
+código v4
+
+Resumindo código em 1 linha
+
+    let resultado = Number(prompt('Digite um número')) + Number(prompt('Digite outro número')); alert(resultado);
+        
